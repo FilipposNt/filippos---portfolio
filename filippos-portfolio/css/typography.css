@@ -1,0 +1,44 @@
+:root {
+  --text-light: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #cf01e0, 0 0 25px #cf01e0,
+    0 0 30px #cf01e0, 0 0 35px #cf01e0;
+
+  --fw-light: 400;
+  --fw-medium: 500;
+  --fw-bold: 600;
+  --fw-extra-bold: 700;
+}
+/* margin-left */
+.ml-tiny {
+  margin-left: 0.1rem;
+}
+/* margin-bottom */
+.mb-tiny {
+  margin-bottom: 1rem;
+}
+.mb-small {
+  margin-bottom: 2rem;
+}
+
+.opacity-skill-medium {
+  opacity: 50%;
+}
+.opacity-skill-bad {
+  opacity: 25%;
+}
+
+.hidden {
+  display: none;
+}
+.card.visible {
+  display: block;
+}
+
+.white {
+  color: #fff;
+  text-shadow: var(--text-light);
+  margin-inline: 0.2rem;
+}
+
+.z-index-big {
+  z-index: 1000;
+}
